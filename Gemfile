@@ -2,8 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.2'
-gem 'devise'
 gem 'cancancan'
+gem 'devise'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.3', '>= 7.0.3.1'
 gem 'rubocop', '>= 1.0', '< 2.0'
@@ -51,9 +51,9 @@ gem 'bootsnap', require: false
 # gem "image_processing", "~> 1.2"
 
 group :development, :test do
-   gem 'debug', platforms: %i[mri mingw x64_mingw]
-   gem 'rails-controller-testing'
-   gem 'rspec-rails'
+  gem 'debug', platforms: %i[mri mingw x64_mingw]
+  gem 'rails-controller-testing'
+  gem 'rspec-rails'
 end
 
 group :development do
