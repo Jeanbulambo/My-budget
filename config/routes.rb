@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
-  # Defines the root path route ("/")
-  # root "articles#index"
+  resources :group, only: [:index, :new, :create] do
+    resources :entities, only: [:index, :new, :create]
+  end
+  root to: 'group#index'
 end
