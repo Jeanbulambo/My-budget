@@ -84,7 +84,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- We are grateful to  Gregoire Vella on Behance for providing the design guidelines
+- We are grateful to  [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance for providing the design guidelines
 
 ## 📝 License
 
