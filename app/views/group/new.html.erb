@@ -5,7 +5,7 @@
 <%= form_with model: @group, url: group_index_path, method: :post, data: { turbo: false } do |form| %>
   <div class="mb-3">
     <%= form.label :name %>
-    <%= form.text_field :name, class: 'form-control', placeholder: 'Category name' %>
+    <%= form.text_field :name, class: 'form-control', placeholder: 'your category' %>
   </div>
   <div class="mb-3">
     <%= form.label :icon %>

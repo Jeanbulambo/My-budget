@@ -5,11 +5,11 @@
 <%= form_with model: @entity, url: group_entities_path, method: :post, data: { turbo: false } do |form| %>
   <div class="mb-3">
     <%= form.label :name %>
-    <%= form.text_field :name, class: 'form-control', placeholder: 'Transaction name' %>
+    <%= form.text_field :name, class: 'form-control', placeholder: 'Your transaction' %>
   </div>
   <div class="mb-3">
     <%= form.label :amount %>
-    <%= form.text_field :amount, class: 'form-control', placeholder: 12, type: "number", step: ".01" %>
+    <%= form.text_field :amount, class: 'form-control', placeholder: 11, type: "number", step: ".01" %>
   </div>
 
   <div class="mb-3">

@@ -1,5 +1,4 @@
-<h3 class="mb-3">Categories</h3>
-
+<h1>Welcome to Category page </h1><br/><br/>
 <% if @groups.count > 0 %>
   <% @groups.each do |group| %>
     <%= link_to group_entities_path(group), class: "card mb-2" do %>
@@ -16,6 +15,6 @@
     <% end %>
   <% end %>
 <% else %>
-  <p>You have no categories and new to continue</p>
-<% end %>
-<%= link_to 'Add Category', new_group_path, class: "btn btn-primary fixed-bottom" %>
+  <p>No category is navaillable for you.<br> Please and new to continue</p>
+<% end %><br/>
+<%= link_to 'Add Category', new_group_path, class: "btn btn-primary" %>
