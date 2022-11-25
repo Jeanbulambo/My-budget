@@ -17,7 +17,7 @@ class GroupController < ApplicationController
     @user = current_user
     @group = @user.groups.create(group_params)
     if @group.save
-      flash[:notice] = 'New category created successfully'
+      flash[:notice] = 'New category created'
       redirect_to group_index_path
     else
       flash.now[:alert] = 'Category creation failed'
